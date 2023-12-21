@@ -14,9 +14,9 @@ yarn add @budarin/no-ops-service
 
 ```ts
 import { logger } from 'some-logger';
-import { NoOpsService } from '@budarin/no-ops-service';
+import { noOpsService } from '@budarin/no-ops-service';
 
-const logger = __TEST__ ? NoOpsService : logger;
+const logger = __TEST__ ? noOpsService : logger;
 
 logger.log('hello'); // do nothing in test env and log in else
 ```
