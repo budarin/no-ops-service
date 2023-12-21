@@ -20,3 +20,7 @@ const logger = __TEST__ ? NoOpsService : logger;
 
 logger.log('hello'); // do nothing in test env and log in else
 ```
+
+## License
+
+MIT
