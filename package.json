@@ -1,6 +1,6 @@
 {
     "name": "@budarin/no-ops-service",
-    "version": "1.0.4",
+    "version": "1.0.6",
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
     "type": "module",
@@ -10,7 +10,7 @@
     "author": "Vadim Budarin <budarin-vv@yandex.ru>",
     "license": "MIT",
     "devDependencies": {
-        "typescript": "^5.3.2"
+        "typescript": "^5.4.2"
     },
     "publishConfig": {
         "access": "public",
